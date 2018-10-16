@@ -2,7 +2,7 @@ package = "kong-plugin-oidc-rate-limit"
 version = "0.1.0"
 
 source = {
-   url = "git+https://github.com/Optum/kong-upstream-jwt.git"
+   url = "git+https://github.com/ninjaneers-team/kong-plugin-oidc-rate-limit"
 }
 
 local pluginName = package:match("^kong%-plugin%-(.+)$")  -- "oidc-rate-limit"
