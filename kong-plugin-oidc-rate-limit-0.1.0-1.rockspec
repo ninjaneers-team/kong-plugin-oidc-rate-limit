@@ -1,11 +1,11 @@
 package = "kong-plugin-oidc-rate-limit"
 version = "0.1.0-1"
 
-local pluginName = package:match("^kong%-plugin%-(.+)$")  -- "oidc-rate-limit"
+local pluginName = "kong-plugin-oidc-rate-limit"
 
 supported_platforms = {"linux", "macosx"}
 source = {
-  url = "https://github.com/ninjaneers-team/kong-plugin-oidc-rate-limit",
+  url = "git+https://github.com/ninjaneers-team/kong-plugin-oidc-rate-limit",
   tag = "0.1.0"
 }
 
