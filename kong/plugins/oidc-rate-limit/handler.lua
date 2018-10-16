@@ -62,7 +62,7 @@ local function get_usage(conf, identifier, current_timestamp, limits)
 end
 
 function RateLimitingHandler:new()
-  RateLimitingHandler.super.new(self, "oidc-user-rate-limiting")
+  RateLimitingHandler.super.new(self, "oidc-rate-limiting")
 end
 
 function RateLimitingHandler:access(conf)
