@@ -1,7 +1,7 @@
 package = "kong-plugin-oidc-rate-limit"
 version = "0.1.0-1"
 
-local pluginName = "kong-plugin-oidc-rate-limit"
+local pluginName = "oidc-rate-limit"
 
 supported_platforms = {"linux", "macosx"}
 source = {
