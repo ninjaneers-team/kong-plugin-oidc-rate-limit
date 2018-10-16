@@ -11,8 +11,7 @@ source = {
 
 description = {
   summary = "A plugin for Kong which add rate limiting for oidc authenticated users",
-  detailed = "To enable rate limiting add ratelimit with a numeric value (eg. 10) as a client or user claim. You also need to set the KONG_CUSTOM_PLUGINS environment variable
-`export KONG_CUSTOM_PLUGINS=oidc-rate-limit`",
+  detailed = "To enable rate limiting add ratelimit with a numeric value (eg. 10) as a client or user claim. You also need to set the KONG_CUSTOM_PLUGINS environment variable _export KONG_CUSTOM_PLUGINS=oidc-rate-limit_",
   homepage = "https://github.com/ninjaneers-team/kong-plugin-oidc-rate-limit",
   license = "Apache 2.0"
 }
